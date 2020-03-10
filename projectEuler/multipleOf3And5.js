@@ -1,3 +1,5 @@
+///Find the sum of all the multiples of 3 or 5 below 1000.
+
 function multipleOf3And5(num){
 	let sum = 0;
 	for(index = 1; index <= num; index++){
