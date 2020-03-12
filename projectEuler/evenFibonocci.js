@@ -10,9 +10,14 @@ function fib(n) {
   }
 
 function fibonacci(num){
+	let sum = 0;
 	for (let i = 1; i <= num; i++) {
-		const result = fib(i);
-		console.log(result);
-	  }
+		if(i % 2 == 0 ){
+			const result = fib(i);
+			console.log(result)
+			sum += result
+		}
+	}
+	 return sum;
 }
-console.log(fibonacci(7))
+console.log(fibonacci(10))
