@@ -9,7 +9,7 @@ function fib(n) {
 	return fib(n - 1) + fib(n - 2);
   }
 
-function fibonacci(num){
+function evenFibonacci(num){
 	let sum = 0;
 	for (let i = 1; i <= num; i++) {
 		if(i % 2 == 0 ){
@@ -20,4 +20,4 @@ function fibonacci(num){
 	}
 	 return sum;
 }
-console.log(fibonacci(10))
+console.log(evenFibonacci(10))
