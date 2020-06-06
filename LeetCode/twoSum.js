@@ -1,4 +1,4 @@
-// Write a function to match two indices of sum to a number
+// Write a function to compare two indices of sum to a number
 
 function twoSum(array, number){
 	arrayLength = array.length
