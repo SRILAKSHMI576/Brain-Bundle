@@ -6,7 +6,7 @@ function twoSum(array, number){
 	for(let index = 0; index<=arrayLength - 1; index++){
 		for(let col= index;col<=arrayLength - 2; col++){
 			const sumOfTwoIndicies = array[index] + array[col + 1]
-			if(sumOfTwoIndicies === number) return (`Indices of the two numbers are: ${index}, ${col + 1}`)
+			if(sumOfTwoIndicies === number) return (`Indices of the two numbers are: [${index}, ${col + 1}]`)
 		}
 	}
 }
