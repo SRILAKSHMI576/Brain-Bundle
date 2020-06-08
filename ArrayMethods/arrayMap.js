@@ -65,3 +65,25 @@ console.log(arrayFind([
 	{ name: 'Keyboard', price: 300},
 	{ name: 'Lorry', price: 900},
 ], ))
+console.log(arrayFind([
+	{ name: 'Bike', price: 100},
+	{ name: 'Car', price: 200},
+	{ name: 'Scooty', price: 10},
+	{ name: 'Bus', price: 5},
+	{ name: 'Van', price: 500},
+	{ name: 'Metro', price: 900},
+	{ name: 'Truck', price: 1000},
+	{ name: 'Keyboard', price: 300},
+	{ name: 'Lorry', price: 900},
+], 100))
+console.log(arrayFind([
+	{ name: 'Bike', price: 100},
+	{ name: 'Car', price: 200},
+	{ name: 'Scooty', price: 10},
+	{ name: 'Bus', price: 5},
+	{ name: 'Van', price: 500},
+	{ name: 'Metro', price: 900},
+	{ name: 'Truck', price: 1000},
+	{ name: 'Keyboard', price: 300},
+	{ name: 'Lorry', price: 900},
+], 'Truck'))
