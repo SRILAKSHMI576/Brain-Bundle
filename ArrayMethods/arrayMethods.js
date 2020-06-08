@@ -29,7 +29,7 @@ const foundItems = items.find(item => {
 	return item.name === 'Lorry'
 })
 
-//  console.log(foundItems)
+console.log(foundItems)
 
 //forEach method
 items.forEach(item => {
