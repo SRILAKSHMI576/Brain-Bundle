@@ -33,7 +33,7 @@ const foundItems = items.find(item => {
 
 //forEach method
 items.forEach(item => {
-	// console.log(item.price)
+	console.log("hi",item.price)
 })
 
 //Some method
@@ -61,4 +61,4 @@ const total = items.reduce((currentTotal, item) => {
 const array = [1, 34, 6, 88]
 const matchPrice = array.includes(344)
 
-console.log(matchPrice)
+// console.log(matchPrice)
