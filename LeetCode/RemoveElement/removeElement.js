@@ -3,8 +3,7 @@ function removeElements(array, num){
 	const arrayLength = array.length 
 	for(let index = 0; index < arrayLength; index++){
 		if(array[index] !== num){
-			const pushElement = emptyArray.push(array[index])
-			// console.log("push", pushElement)
+			emptyArray.push(array[index])
 		}
 	}
 	 console.log("new array:", emptyArray, "array-length:",  emptyArray.length)
