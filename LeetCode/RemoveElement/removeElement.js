@@ -6,7 +6,7 @@ function removeElements(array, num){
 			emptyArray.push(array[index])
 		}
 	}
-	 console.log("new array:", emptyArray, "array-length:",  emptyArray.length)
+	console.log("new array:", emptyArray, "array-length:",  emptyArray.length)
 }
 
 console.log(removeElements([1,1,2], 1)) 			// 1 [2] 1
