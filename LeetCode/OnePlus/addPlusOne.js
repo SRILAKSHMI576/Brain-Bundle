@@ -1,9 +1,10 @@
 function addPlusOne(array){
-	for(let index=0; index<array.length; index++){
-		if(index === array.length-1){
-			array.splice(array.length-1, 1, array[index]+ 1)
-		}
-	}
+	// for(let index=0; index<array.length; index++){
+	// 	// if(index === array.length-1){
+	// 	// 	array.splice(array.length-1, 1, array[index]+ 1)
+	// 	// }
+	// }
+	array[array.length-1] += 1
 	return array
 }
 console.log(addPlusOne([2, 3, 6, 45]))
